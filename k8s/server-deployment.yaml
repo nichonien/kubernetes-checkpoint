@@ -15,6 +15,7 @@ spec:
       containers:
         - name: server
           image: ashishtripathi8/multi-server
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:

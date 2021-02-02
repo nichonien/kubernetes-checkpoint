@@ -15,5 +15,6 @@ spec:
       containers:
         - name: client
           image: ashishtripathi8/client-image
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
